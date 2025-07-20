@@ -2,6 +2,8 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
+         
+        System.out.println("ESTADIOS: \n");
 
         Estadio estadio1 = new Estadio();
         Estadio estadio2 = new Estadio();
@@ -23,6 +25,8 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------------------------------");
 
+        System.out.println("PRESENTACION DE JUGADORES: \n");
+
         jugador1.nombreJugador = "James";
         jugador1.edad = 34;
         jugador1.posicion = "Delantero";
@@ -34,7 +38,9 @@ public class Main {
         jugador1.presentarse();
         jugador2.presentarse();
 
-        System.out.println("\n");
+        System.out.println("----------------------------------------------------------------------------------------");
+
+        System.out.println("CAMBIO DE POSICIONES: \n");
 
         jugador1.cambiarPosicion("Arquero");
         jugador2.cambiarPosicion("Lateral derecho");
