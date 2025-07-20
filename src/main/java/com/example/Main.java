@@ -29,10 +29,15 @@ public class Main {
 
         jugador2.nombreJugador = "Quintero";
         jugador2.edad = 35;
-        jugador2.posicion = "Lateral";
+        jugador2.posicion = "Lateral izquierdo";
 
         jugador1.presentarse();
         jugador2.presentarse();
+
+        System.out.println("\n");
+
+        jugador1.cambiarPosicion("Arquero");
+        jugador2.cambiarPosicion("Lateral derecho");
 
     }
 }

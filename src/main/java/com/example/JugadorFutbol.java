@@ -12,6 +12,14 @@ class JugadorFutbol {
 
     }
 
+    public void cambiarPosicion (String nuevaPosicion){
+
+        posicion = nuevaPosicion;
+
+        System.out.println(nombreJugador + " ha cambiado de posicion, ahora juega como " + nuevaPosicion);
+
+    }
+
     
 }
 
